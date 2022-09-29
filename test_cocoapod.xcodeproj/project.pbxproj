@@ -17,9 +17,6 @@
 		BBCF8BB528E1B44500CF2AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCF8BB428E1B44500CF2AAD /* Assets.xcassets */; };
 		BBCF8BB828E1B44500CF2AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCF8BB628E1B44500CF2AAD /* LaunchScreen.storyboard */; };
 		BBCF8BBB28E1B44500CF2AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF8BBA28E1B44500CF2AAD /* main.m */; };
-		BBCF8BC528E1B44500CF2AAD /* test_cocoapodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF8BC428E1B44500CF2AAD /* test_cocoapodTests.m */; };
-		BBCF8BCF28E1B44500CF2AAD /* test_cocoapodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF8BCE28E1B44500CF2AAD /* test_cocoapodUITests.m */; };
-		BBCF8BD128E1B44500CF2AAD /* test_cocoapodUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF8BD028E1B44500CF2AAD /* test_cocoapodUITestsLaunchTests.m */; };
 		E9B8010711AB0F6445979428 /* Pods_test_cocoapod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F31BDE349BB8F547BA8E3B /* Pods_test_cocoapod.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,10 +58,7 @@
 		BBCF8BB928E1B44500CF2AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCF8BBA28E1B44500CF2AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBCF8BC028E1B44500CF2AAD /* test_cocoapodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_cocoapodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCF8BC428E1B44500CF2AAD /* test_cocoapodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_cocoapodTests.m; sourceTree = "<group>"; };
 		BBCF8BCA28E1B44500CF2AAD /* test_cocoapodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_cocoapodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCF8BCE28E1B44500CF2AAD /* test_cocoapodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_cocoapodUITests.m; sourceTree = "<group>"; };
-		BBCF8BD028E1B44500CF2AAD /* test_cocoapodUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_cocoapodUITestsLaunchTests.m; sourceTree = "<group>"; };
 		D3F31BDE349BB8F547BA8E3B /* Pods_test_cocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_cocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98A8D77BAAE0D3F88C24095 /* Pods_test_cocoapod_test_cocoapodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_cocoapod_test_cocoapodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64909D1BA2E7F81BD7AC7FB /* Pods-test_cocoapodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_cocoapodTests.release.xcconfig"; path = "Target Support Files/Pods-test_cocoapodTests/Pods-test_cocoapodTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				BBCF8BA728E1B44200CF2AAD /* test_cocoapod */,
-				BBCF8BC328E1B44500CF2AAD /* test_cocoapodTests */,
-				BBCF8BCD28E1B44500CF2AAD /* test_cocoapodUITests */,
 				BBCF8BA628E1B44200CF2AAD /* Products */,
 				DC4A3A53A0DAB9E821EEEA14 /* Pods */,
 				AC45C9A16391407658392D68 /* Frameworks */,
@@ -157,23 +149,6 @@
 				BBCF8BBA28E1B44500CF2AAD /* main.m */,
 			);
 			path = test_cocoapod;
-			sourceTree = "<group>";
-		};
-		BBCF8BC328E1B44500CF2AAD /* test_cocoapodTests */ = {
-			isa = PBXGroup;
-			children = (
-				BBCF8BC428E1B44500CF2AAD /* test_cocoapodTests.m */,
-			);
-			path = test_cocoapodTests;
-			sourceTree = "<group>";
-		};
-		BBCF8BCD28E1B44500CF2AAD /* test_cocoapodUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BBCF8BCE28E1B44500CF2AAD /* test_cocoapodUITests.m */,
-				BBCF8BD028E1B44500CF2AAD /* test_cocoapodUITestsLaunchTests.m */,
-			);
-			path = test_cocoapodUITests;
 			sourceTree = "<group>";
 		};
 		DC4A3A53A0DAB9E821EEEA14 /* Pods */ = {
@@ -439,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCF8BC528E1B44500CF2AAD /* test_cocoapodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCF8BD128E1B44500CF2AAD /* test_cocoapodUITestsLaunchTests.m in Sources */,
-				BBCF8BCF28E1B44500CF2AAD /* test_cocoapodUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
